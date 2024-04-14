@@ -1,0 +1,39 @@
+body{
+    width: auto;
+}
+.header__title{
+    color: rgb(14, 115, 88);
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    font-family: "Kode Mono", monospace;
+}
+
+.header__title-visible{
+    visibility: visible;
+}
+
+.content__button{
+    opacity: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.content__button:hover{
+    opacity: 30%;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.table__text{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.table__image{
+    width: 200px;
+}
