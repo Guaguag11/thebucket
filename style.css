@@ -2,11 +2,13 @@ body{
     width: auto;
 }
 .header__title{
-    color: rgb(14, 115, 88);
+    color: rgb(255 255 255);
     display: flex;
     justify-content: center;
     visibility: hidden;
     font-family: "Kode Mono", monospace;
+    padding: 50px;
+    background: blue;
 }
 
 .header__title-visible{
@@ -28,6 +30,9 @@ body{
     justify-content: center;
     list-style: none;
     flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 50px;
+    padding-bottom: 40px
 }
 
 .table__text{
@@ -36,4 +41,13 @@ body{
 
 .table__image{
     width: 200px;
+}
+
+footer{
+    gap: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    background: blue
 }
