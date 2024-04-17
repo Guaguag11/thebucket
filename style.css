@@ -39,12 +39,29 @@ body{
 
 
 .card-body{
-    background: aliceblue
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-title{
+    font-family: "Kode Mono", monospace;
+    font-size: x-large;
+    font-weight: 800;
 }
 
 .card-img-top{
     height: 354px;
     object-fit: cover;
+}
+
+.card-text{
+    font-size: x-large;
+}
+
+.span{
+    font-weight: 800;
 }
 
 footer{
