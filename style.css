@@ -1,5 +1,6 @@
 body{
     width: auto;
+    background-color:#0010ff !important;
 }
 .header__title{
     color: rgb(255 255 255);
@@ -9,6 +10,7 @@ body{
     font-family: "Kode Mono", monospace;
     padding: 50px;
     background: blue;
+    font-size: xxx-large !important;
 }
 
 .header__title-visible{
