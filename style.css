@@ -35,12 +35,16 @@ body{
     padding-bottom: 40px
 }
 
-.table__text{
-    font-family: "Bebas Neue", sans-serif;
+.card{
 }
 
-.table__image{
-    width: 200px;
+.card-body{
+    background: aliceblue
+}
+
+.card-img-top{
+    height: 354px;
+    object-fit: cover;
 }
 
 footer{
