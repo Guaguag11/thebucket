@@ -39,7 +39,7 @@ body{
 
 
 .card-body{
-    background: aliceblue;
+    background: #f8f0ff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
