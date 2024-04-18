@@ -10,7 +10,6 @@ body{
     font-family: "Kode Mono", monospace;
     padding: 50px;
     background: blue;
-    font-size: xxx-large !important;
 }
 
 .header__title-visible{
